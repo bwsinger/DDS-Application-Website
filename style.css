@@ -1,0 +1,65 @@
+/* Desktop Specifications*/
+
+body {
+  padding-top: 5rem;
+  background-color: deepskyblue;
+}
+
+.sign-in {
+  padding: 3em 1.5em;
+  text-align: left;
+}
+
+.sign-in h2,
+.sign-in h4 {
+  /*  margin-top: auto;*/
+}
+
+.sign-in-box {
+  background-color: white;
+  padding: 1em;
+}
+
+.spacer-right {
+  margin-right: 1em;
+}
+
+.spacer-left {
+  margin-left: 1em;
+}
+
+.sign-title {
+  font-size: 2em;
+}
+
+.bottom-align-text {
+  position: absolute;
+  padding-bottom: 0.25em;
+  bottom: 0;
+  right: 1.5em;
+}
+
+.form-pad {
+  padding-top: 1em;
+}
+
+.bottom-align.row {
+  position: relative;
+}
+
+.hr-style {
+  border-top: 1px solid #8c8b8b;
+  border-color: lightgray;
+}
+
+
+/* Mobile specifications */
+
+@media screen and (max-width: 500px) {
+  .sign-title {
+    font-size: 1.5em;
+  }
+  .bottom-align-text {
+    padding-bottom: 0.15em;
+  }
+}
